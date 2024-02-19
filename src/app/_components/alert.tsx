@@ -1,5 +1,4 @@
 import Container from "@/app/_components/container";
-import { EXAMPLE_PATH } from "@/lib/constants";
 import cn from "classnames";
 
 type Props = {
@@ -29,12 +28,13 @@ const Alert = ({ preview }: Props) => {
             </>
           ) : (
             <>
-              The source code for this blog is{" "}
+              The original site is{" "}
               <a
-                href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
+                href="https://www.suzannecollinsbooks.com/"
                 className="underline hover:text-blue-600 duration-200 transition-colors"
+                target="_blank"
               >
-                available on GitHub
+                available here
               </a>
               .
             </>
