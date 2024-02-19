@@ -1,13 +1,13 @@
 ---
-title: "Dynamic Routing and Static Generation"
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
-coverImage: "/assets/blog/dynamic-routing/cover.jpg"
+title: "Literary Works"
+excerpt: "Dive into the captivating worlds crafted by Suzanne Collins, an author whose imagination knows no bounds. From the groundbreaking \"Hunger Games\" trilogy to other mesmerizing tales, each book takes readers on an unforgettable journey filled with adventure, emotion, and thought-provoking themes."
+coverImage: "/assets/blog/hello-world/cover.jpg"
 date: "2020-03-16T05:35:07.322Z"
 author:
-  name: JJ Kasper
-  picture: "/assets/blog/authors/jj.jpeg"
+  name: Suzanne Collins
+  picture: "/assets/blog/authors/tim.jpeg"
 ogImage:
-  url: "/assets/blog/dynamic-routing/cover.jpg"
+  url: "/assets/blog/hello-world/cover.jpg"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
