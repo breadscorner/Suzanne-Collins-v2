@@ -1,5 +1,5 @@
 import Container from "@/app/_components/container";
-import { EXAMPLE_PATH } from "@/lib/constants";
+import { GITHUB_PATH } from "@/lib/constants";
 
 export function Footer() {
   return (
@@ -18,7 +18,7 @@ export function Footer() {
               LinkedIn
             </a>
             <a
-              href="https://github.com/breadscorner"
+              href={GITHUB_PATH}
               className="mx-3 font-bold hover:underline"
               target="_blank"
             >

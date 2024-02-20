@@ -8,13 +8,13 @@ export default function Navbar() {
         <Link href="/" className="md:text-lg hover:font-semibold font-thin leading-7 text-gray-900 sm:text-3xl sm:leading-9 sm:truncate">
             Reviews
         </Link>
-        <Link href="#biography" className="md:text-lg hover:font-semibold font-thin leading-7 text-gray-900 sm:text-3xl sm:leading-9 sm:truncate">
+        <Link href="/posts/biography" className="md:text-lg hover:font-semibold font-thin leading-7 text-gray-900 sm:text-3xl sm:leading-9 sm:truncate">
             Biography
         </Link>
-        <Link href="#literature" className="md:text-lg hover:font-semibold font-thin leading-7 text-gray-900 sm:text-3xl sm:leading-9 sm:truncate">
+        <Link href="/posts/literature" className="md:text-lg hover:font-semibold font-thin leading-7 text-gray-900 sm:text-3xl sm:leading-9 sm:truncate">
             Literature
         </Link>
-        <Link href="#interview" className="md:text-lg hover:font-semibold font-thin leading-7 text-gray-900 sm:text-3xl sm:leading-9 sm:truncate">
+        <Link href="/posts/interview" className="md:text-lg hover:font-semibold font-thin leading-7 text-gray-900 sm:text-3xl sm:leading-9 sm:truncate">
             Interview
         </Link>
       </div>
