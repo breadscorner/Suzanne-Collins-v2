@@ -10,15 +10,17 @@ type Props = {
 
 const CoverImage = ({ title, src, slug }: Props) => {
   const image = (
+    <div className="flex justify-center">
     <Image
       src={src}
       alt={`Cover Image for ${title}`}
-      className={cn("shadow-sm w-full", {
+      className={cn("shadow-sm w-[90%]", {
         "hover:shadow-lg transition-shadow duration-200": slug,
       })}
-      width={1300}
-      height={630}
+      width={800}
+      height={230}
     />
+    </div>
   );
   return (
     <div className="sm:mx-0">

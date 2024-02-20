@@ -24,6 +24,7 @@ export default function Index() {
           excerpt={heroPost.excerpt}
         />
         {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+        {/* Reviews Go Here */}
       </Container>
     </main>
   );
