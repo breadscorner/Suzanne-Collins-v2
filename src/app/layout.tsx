@@ -1,5 +1,5 @@
 import Footer from "@/app/_components/footer";
-import { BIO_IMAGE_URL, CMS_NAME } from "@/lib/constants";
+import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: `${CMS_NAME} | Author, Writer, and Novelist`,
   description: `A website featuring the works of ${CMS_NAME}.`,
   openGraph: {
-    images: [BIO_IMAGE_URL],
+    images: [HOME_OG_IMAGE_URL],
   },
 };
 
