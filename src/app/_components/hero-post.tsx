@@ -1,7 +1,7 @@
 import Avatar from "@/app/_components/avatar";
-import CoverImage from "@/app/_components/cover-image";
 import { type Author } from "@/interfaces/author";
 import Link from "next/link";
+import { COVER_IMAGE_URL } from "@/lib/constants";
 
 type Props = {
   title: string;
@@ -22,7 +22,11 @@ export function HeroPost({
   return (
     <section>
       <div className="mb-8 md:mb-16">
-        <CoverImage title={title} src={coverImage} slug={slug} />
+        {/* <CoverImage title={title} src={coverImage} slug={slug} /> */}
+        <img
+          src={COVER_IMAGE_URL}
+          alt="Suzanne Collins"
+        />
       </div>
       <div className="md:grid md:grid-cols-2 md:gap-x-16 lg:gap-x-8 mb-20 md:mb-28">
         <div>

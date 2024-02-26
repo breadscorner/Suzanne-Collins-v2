@@ -6,7 +6,7 @@ export function Footer() {
       <Container>
         <div className="py-10 flex items-center justify-center lg:justify-between">
           <h4 className="text-lg font-bold">Website Created By Brett Gill</h4>
-          <p className="text-sm text-gray-500">This website was redesigned. <a href="https://www.suzannecollinsbooks.com/" className="underline" target="_blank">Compare to the original</a>.</p>
+          <p className="text-sm text-gray-500 uppercase">This website was redesigned. <a href="https://www.suzannecollinsbooks.com/" className="underline" target="_blank">Compare to the original</a>.</p>
         </div>
       </Container>
     </footer>
