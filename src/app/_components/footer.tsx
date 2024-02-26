@@ -1,30 +1,12 @@
 import Container from "@/app/_components/container";
-import { GITHUB_PATH } from "@/lib/constants";
 
 export function Footer() {
   return (
     <footer className="bg-neutral-50 border-t border-neutral-200">
       <Container>
-        <div className="py-28 flex flex-col lg:flex-row items-center">
-          <h3 className="text-4xl lg:text-[2.5rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
-            Website Created By <br/>Brett Gill
-          </h3>
-          <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
-            <a
-              href="https://www.linkedin.com/in/thebrettgill/"
-              className="mx-3 bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0"
-              target="_blank"
-            >
-              LinkedIn
-            </a>
-            <a
-              href={GITHUB_PATH}
-              className="mx-3 font-bold hover:underline"
-              target="_blank"
-            >
-              View on GitHub
-            </a>
-          </div>
+        <div className="py-10 flex items-center justify-center lg:justify-between">
+          <h4 className="text-lg font-bold">Website Created By Brett Gill</h4>
+          <p className="text-sm text-gray-500">This website was redesigned. <a href="https://www.suzannecollinsbooks.com/" className="underline" target="_blank">Compare to the original</a>.</p>
         </div>
       </Container>
     </footer>
