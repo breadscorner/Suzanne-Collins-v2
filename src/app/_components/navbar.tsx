@@ -31,9 +31,6 @@ export default function Navbar() {
           </Link>
         </div>
 
-        {/* Right part of navbar, typically for call to action or profile */}
-        {/* Add your elements here */}
-
         {/* Hamburger button on mobile */}
         <div className="md:hidden">
           <button
