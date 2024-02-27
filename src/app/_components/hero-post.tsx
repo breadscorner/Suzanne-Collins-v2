@@ -22,7 +22,6 @@ export function HeroPost({
   return (
     <section>
       <div className="mb-8 md:mb-16">
-        {/* <CoverImage title={title} src={coverImage} slug={slug} /> */}
         <img
           src={COVER_IMAGE_URL}
           alt="Suzanne Collins"

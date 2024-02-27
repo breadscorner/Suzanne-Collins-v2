@@ -2,7 +2,7 @@
 title: "Biography"
 excerpt: "Suzanne Collins is a prolific author whose creative journey spans from television to international literary acclaim. From her early days writing for Nickelodeon shows to the groundbreaking success of The Hunger Games Trilogy, Collins has captivated audiences worldwide. With over 100 million copies of her books sold globally, her impact on literature and popular culture is profound. Explore the imaginative worlds she has crafted and experience the power of storytelling at its finest."
 coverImage: "/assets/blog/dynamic-routing/cover.jpg"
-date: "2020-03-16T05:35:07.322Z"
+date: "2024-02-26T05:35:07.322Z"
 author:
   name: Suzanne Collins
   picture: "/assets/blog/authors/jj.jpeg" # icon
