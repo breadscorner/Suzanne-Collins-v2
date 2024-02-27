@@ -17,7 +17,7 @@ export default function Navbar() {
 
         {/* Center part of navbar for desktop */}
         <div className="hidden md:flex items-center space-x-4">
-          <Link href="/biography" className="text-gray-700 hover:text-gray-900">
+          <Link href="/posts/biography" className="text-gray-700 hover:text-gray-900">
             Biography
           </Link>
           <Link
@@ -104,7 +104,7 @@ export default function Navbar() {
                 {/* Mobile navigation links */}
                 <div className="flex flex-col justify-center items-center h-full">
                   <Link
-                    href="/biography"
+                    href="/posts/biography"
                     className="text-lg font-medium text-gray-900 hover:underline mb-4"
                     onClick={() => setIsMenuOpen(false)}
                   >
