@@ -157,11 +157,11 @@ const CarouselContent = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HT
             "flex",
             orientation === "horizontal" ? "mx-8" : "mt-4 flex-col",
             "space-x-80",
-            "w-full", // Make content full width by default
-            "max-w-5xl", // Limit content width to a maximum value
+            "w-full", 
+            "max-w-5xl", 
             className
           )}
-          style={{ width: "80%" }} // Set width to 80%
+          style={{ width: "80%" }} 
           {...props}
         />
       </div>
@@ -182,7 +182,7 @@ const CarouselItem = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLD
         className={cn(
           "min-w-0 shrink-0 grow-0 basis-full",
           orientation === "horizontal" ? "pl-0" : "pt-0",
-          "flex justify-center items-center", 
+          "flex items-center", 
           className
         )}
         {...props}

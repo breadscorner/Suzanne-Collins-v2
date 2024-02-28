@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { useState, useEffect } from "react";
 import BookReviews from "../reviews.json";
@@ -9,7 +9,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "../_components/ui/carousel"; 
+} from "../_components/ui/carousel";
 
 type Review = {
   id: number;
@@ -35,10 +35,19 @@ export function Reviews() {
           {reviews.map((review) => (
             <CarouselItem key={review.id}>
               <div className="p-1">
-                <div className="border border-gray-200 rounded-md p-4">
-                  <p className="text-lg font-semibold">{review.title}</p>
-                  <p className="text-md mt-2">{review.quote}</p>
-                  <p className="text-sm mt-4">- {review.reviewer}</p>
+                <div className="flex border border-gray-200 rounded-md md:h-[200px] p-4 mb-8 md:mb-24">
+                  <div className="mr-4">
+                    <img
+                      src="/images/book-cover.jpg"
+                      alt="Book"
+                      className="w-24 h-auto"
+                    />
+                  </div>
+                  <div className="flex flex-col justify-start">
+                    <p className="text-lg font-semibold">{review.title}</p>
+                    <p className="text-md mt-2">{review.quote}</p>
+                    <p className="text-sm mt-4">- {review.reviewer}</p>
+                  </div>
                 </div>
               </div>
             </CarouselItem>
